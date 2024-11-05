@@ -1,0 +1,70 @@
+<!--DOCTYPE is a little surprising that need to be the very top of the file, 
+and it tells older browsers that the browser needs to render the page in a standard mode, 
+following the current html specification.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Welcome to my Virtuakl Terrarium
+    </title>
+    <!--the 'character set', telling about what character encoding is used in the page -->
+    <meta charset="utf-8" />
+    <!--browser information, including x-ua-compatible indicates that the IE=edge browser is supported-->
+    <meta http-equiv="--x-ua-compatible" content="IE=edge" />
+    <!--information about how the viewport should behave when it is loaded. 
+    Setting the viewport to have an initial scale of 1 controls the zoom level when the page is first loaded.-->
+    <meta name="viewport" content="width=device-width, initial-scal=1" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--Color:red specified here will override the one in style.css-->
+    <h1 style="color: red">My Terrarium</h1>
+    <!--use <div> tags to create the separate elements in a page.-->
+    <div id="page">
+      <div id="left-container" class="container">
+        <div class="plant-holder">
+          <!--One html tag that doesn't need a closing tag is the <img> tag, 
+          because it has a src element that contains all the information the page needs to render the item.-->
+          <img class="plant" alt="plant" id="plant1" src="./images/image1.jpg" />
+        </div>
+        <div class="plant-holder">
+          <!--One html tag that doesn't need a closing tag is the <img> tag, 
+          because it has a src element that contains all the information the page needs to render the item.-->
+          <img class="plant" alt="plant" id="plant2" src="./images/image2.jpg" />
+        </div>
+        <div class="plant-holder">
+          <!--One html tag that doesn't need a closing tag is the <img> tag, 
+          because it has a src element that contains all the information the page needs to render the item.-->
+          <img class="plant" alt="plant" id="plant3" src="./images/image3.jpg" />
+        </div>          
+      </div>
+      <div id="right-container" class="container">
+        <div class="plant-holder">
+          <!--One html tag that doesn't need a closing tag is the <img> tag, 
+          because it has a src element that contains all the information the page needs to render the item.-->
+          <img class="plant" alt="plant" id="plant7" src="./images/image7.jpg" />
+        </div>
+        <div class="plant-holder">
+          <!--One html tag that doesn't need a closing tag is the <img> tag, 
+          because it has a src element that contains all the information the page needs to render the item.-->
+          <img class="plant" alt="plant" id="plant8" src="./images/image8.jpg" />
+        </div>
+        <div class="plant-holder">
+          <!--One html tag that doesn't need a closing tag is the <img> tag, 
+          because it has a src element that contains all the information the page needs to render the item.-->
+          <img class="plant" alt="plant" id="plant9" src="./images/image9.jpg" />
+        </div>          
+      </div>
+      <div id="terrarium">
+        <div class="jar-top"></div>
+        <div class="jar-walls">
+          <div class="jar-glossy-long"></div>
+          <div class="jar-glossy-short"></div>
+        </div>
+        <div class="dirt"></div>
+        <div class="jar-bottom"></div>
+      </div>
+    </div>
+  </body>
+</html>
