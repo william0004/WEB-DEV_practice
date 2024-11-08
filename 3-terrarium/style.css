@@ -6,6 +6,8 @@ Absolute positioned elements are positioned relative to their nearest positioned
 Relative positioned elements are positioned based on the CSS's directions to adjust its placement away from its initial position.
 */
 
+/*The font-family property can hold several font names as a "fallback" system. 
+If the browser does not support the first font, it tries the next font.*/
 body {
 	font-family: helvetica, arial, sans-serif;
 }

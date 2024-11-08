@@ -1,0 +1,70 @@
+.highlight {
+  background-color: rgb(151, 238, 241);
+}
+
+.error {
+  background-color: rgb(252, 165, 165);
+}
+
+.greeting {
+  color:#048cbd;
+  font-size: 2rem;
+}
+
+body {
+  /*The font-family property can hold several font names as a "fallback" system. 
+  If the browser does not support the first font, it tries the next font.*/
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 3%;
+}
+
+h1 {
+  color: #048cbd;
+  font-size: 5rem;
+}
+
+p {
+  color: #5e5e5e;
+}
+
+#quote {
+  font-size: 3rem;
+}
+
+#typingArea {
+  position: absolute;
+  bottom: 15%;
+  left:5%;
+  width: 90%;
+  height: 30%;
+}
+
+#type-value {
+  font-size: 3rem;
+	height: 45%;
+	width: 100%;
+  border: 8px solid #048cbd;
+  border-radius: 20px;
+  padding: 10px 50px;
+}
+
+
+#start {
+  background-color: #048cbd;
+  color:white;
+  font-size: 2rem;
+  font-weight: bold;
+  border-style: none;
+	height: 70px;
+	width: 160px;
+  margin: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#start:hover {
+  background-color: #2bb3e4;
+}
+
